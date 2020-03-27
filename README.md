@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[LIVE VERSION](https://raw.githack.com/arslanbisharat/conference-page/main-branc/Index.html)
+[LIVE VERSION](https://raw.githack.com/arslanbisharat/conference-page/main-branch/Index.html)
 
 ## Requirements
 
