@@ -33,7 +33,7 @@ nav {
   align-items: center;
 }
 
-main {
+.title {
   padding-top: 250px !important;
   padding-bottom: 200px !important;
 }
@@ -106,7 +106,7 @@ h1 {
   width: 100%;
 }
 
-main h2 {
+.title h2 {
   color: #272a31;
   font-weight: bold;
   margin-top: 25px;
@@ -321,17 +321,17 @@ footer :first-child p {
   font-size: 10px;
 }
 
-main :first-child {
+.title :first-child {
   font-size: 1.8em;
   font-weight: 300;
   padding-bottom: 15px;
 }
 
-main :last-child {
+.title :last-child {
   color: #272a31;
 }
 
-main :nth-child(3) {
+.title :nth-child(3) {
   color: #272a31;
   border: 2px solid lightgray;
   max-width: 500px;
