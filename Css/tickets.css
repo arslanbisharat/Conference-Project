@@ -78,7 +78,7 @@ footer {
 }
 
 /* div */
-footer>div {
+footer div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -107,7 +107,7 @@ footer>div {
   border-top: 2px solid lightgray;
 }
 
-.type-of-ticket-background>div {
+.type-of-ticket-background div {
   border-right: 2px solid lightgray;
 }
 
@@ -137,7 +137,7 @@ footer>div {
   background-color: #272a31;
 }
 
-.seat-background:hover>.seat-shape {
+.seat-background:hover .seat-shape {
   background-color: #ec5242;
 }
 
@@ -168,7 +168,7 @@ nav a {
 }
 
 .tickets-link {
-  color: #D3D3D3;
+  color: #d3d3d3;
   padding: 5px 10px;
   background-color: #272a31;
   border: 4px solid #272a31;
@@ -177,26 +177,26 @@ nav a {
 }
 
 .social-and-personal-settings a {
-  color: #D3D3D3;
+  color: #d3d3d3;
   margin-left: 15px;
 }
 
 nav a:hover {
   text-decoration: none;
-  color: #D3D3D3;
-  background-color: lightgrey;
+  color: #d3d3d3;
+  background-color: #d3d3d3;
   font-weight: normal;
   transition: 0.3s;
 }
 
 .tickets-link:hover {
   background-color: #272a31;
-  color: #D3D3D3;
+  color: #d3d3d3;
 }
 
 .social-and-personal-settings a:hover {
   text-decoration: none;
-  color: #D3D3D3;
+  color: #d3d3d3;
 }
 
 /* ul */
@@ -235,7 +235,7 @@ p {
 }
 
 footer p {
-  color: #D3D3D3;
+  color: #d3d3d3;
 }
 
 .seats p {
@@ -253,8 +253,8 @@ footer p {
   font-size: 18px;
 }
 
-.p-border>p {
-  border: 2px solid #D3D3D3;
+.p-border p {
+  border: 2px solid #d3d3d3;
   border-radius: 30px;
   width: 400px;
   color: #272a31;
@@ -266,22 +266,22 @@ footer p {
   color: #272a31;
 }
 
-.type-of-ticket-background-main>p {
-  border-right: 2px solid #D3D3D3;
+.type-of-ticket-background-main p {
+  border-right: 2px solid #d3d3d3;
   font-weight: bold;
 }
 
 .type-of-ticket-background p {
-  border-right: 2px solid #D3D3D3;
+  border-right: 2px solid #d3d3d3;
 }
 
-.type-of-ticket-background>div p {
+.type-of-ticket-background div p {
   border: none;
   color: #ec5242;
   font-weight: bold;
 }
 
-footer>div> :first-child p {
+footer div :first-child p {
   font-size: 2em;
   font-weight: bold;
   margin: 10px 30px 0 10px;
@@ -289,7 +289,7 @@ footer>div> :first-child p {
   font-family: 'Cocogoose', Arial, Helvetica, sans-serif;
 }
 
-footer>div> :last-child :first-child {
+footer :last-child :first-child {
   font-weight: bold;
   font-size: 1.05em;
   margin-top: 40px;
