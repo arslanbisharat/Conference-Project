@@ -1,0 +1,293 @@
+@media (max-width: 1150px) {
+  .branch p {
+    display: none;
+  }
+}
+
+@media (max-width: 950px) {
+  .nav-menu li {
+    display: none;
+    display: inline;
+    position: absolute;
+    top: -100px;
+    transition: 0.5s;
+    right: 100px;
+    z-index: -100;
+    font-size: 20px;
+    text-align: end;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+    cursor: pointer;
+  }
+
+  .nav-menu li:hover {
+    background-color: lightgray;
+  }
+
+  .nav-menu a {
+    padding: 4px 0 4px;
+    margin: 0;
+  }
+
+  .nav-menu > :first-child a {
+    padding-left: 155px;
+  }
+
+  .nav-menu > :nth-child(2) a {
+    padding-left: 145px;
+  }
+
+  .nav-menu > :nth-child(3) a {
+    padding-left: 125px;
+  }
+
+  .nav-menu > :nth-child(4) a {
+    padding-left: 128px;
+  }
+
+  .nav-menu > :last-child {
+    display: inline;
+    position: static;
+    margin-right: 40px;
+    border: none;
+  }
+
+  .nav-menu > :last-child:hover {
+    background-color: transparent;
+  }
+
+  .nav-menu > :last-child a {
+    padding: 5px 10px 5px;
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 68px;
+  }
+
+  .menu-btn {
+    display: inline-block;
+    position: absolute;
+    right: 100px;
+    top: 51px;
+  }
+
+  #menu:checked ~ .nav-menu > :first-child {
+    top: 104px;
+    transition: 0.5s;
+    width: 200px;
+  }
+
+  #menu:checked ~ .nav-menu > :nth-child(2) {
+    top: 135px;
+    transition: 0.5s;
+    width: 200px;
+  }
+
+  #menu:checked ~ .nav-menu > :nth-child(3) {
+    top: 166px;
+    transition: 0.5s;
+    width: 200px;
+  }
+
+  #menu:checked ~ .nav-menu > :nth-child(4) {
+    right: 100px;
+    top: 197px;
+    font-size: 20px;
+    transition: 0.5s;
+    width: 200px;
+  }
+}
+
+@media (max-width: 850px) {
+  .type-of-ticket-border {
+    display: none;
+  }
+
+  select {
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .seats {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .centered-item {
+    max-width: 1400px;
+    margin: auto;
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .player-info p {
+    text-shadow: 2px 2px #272a31;
+  }
+
+  .player-images:hover > p {
+    display: none !important;
+  }
+
+  .nav-menu li {
+    right: 15px !important;
+  }
+
+  .menu-btn {
+    right: 20px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  .player img {
+    display: none;
+  }
+
+  .players > :first-child > :first-child .player {
+    background-image: url("./Assets/Images/Players/team-ts-logo.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .players > :first-child > :last-child .player {
+    background-image: url("./Assets/Images/Players/team-legion-logo.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .player-info {
+    margin-left: 10px;
+  }
+
+  footer > :first-child {
+    width: 100%;
+  }
+
+  .player-info > :last-child {
+    color: white !important;
+  }
+
+  .player-info h4 {
+    color: white !important;
+    text-shadow: 2px 2px #272a31;
+  }
+
+  .player-images {
+    cursor: default;
+    width: 100px;
+  }
+
+  .player-images:hover > .player-img {
+    padding-left: 0;
+    background-position: left;
+    transform: none;
+    height: 100px;
+    cursor: default;
+  }
+
+  .player-images:hover {
+    border: none;
+    transition: 0.5s;
+    z-index: 100;
+    background: none;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  .not-main-footer {
+    flex-direction: column;
+  }
+
+  .not-main-footer > :first-child {
+    width: 100%;
+  }
+
+  .game-history img {
+    width: 150px;
+  }
+
+  .game-history h2 {
+    font-size: 3.5em !important;
+  }
+}
+
+@media (max-width: 550px) {
+  .tickets-link {
+    position: absolute;
+    top: -228px;
+    left: 20px;
+    width: 445px;
+    background-color: white;
+    transition: 0.5s;
+    z-index: -100;
+    text-align: start;
+  }
+
+  .hidden-ticket {
+    display: none;
+  }
+
+  nav ul li {
+    width: 100% !important;
+    max-width: 445px;
+    left: 20px;
+    text-align: start !important;
+  }
+
+  nav {
+    height: 70px;
+  }
+
+  .menu-btn {
+    left: 20px;
+  }
+
+  .tickets-link:hover {
+    font-weight: bold;
+    background-color: white;
+  }
+
+  .nav-menu > :first-child a {
+    padding-right: 400px;
+    padding-left: 0 !important;
+  }
+
+  .nav-menu > :nth-child(2) a {
+    padding-right: 390px;
+    padding-left: 0 !important;
+  }
+
+  .nav-menu > :nth-child(3) a {
+    padding-right: 370px;
+    padding-left: 0 !important;
+  }
+
+  .nav-menu > :nth-child(4) a {
+    padding-right: 375px;
+    padding-left: 0 !important;
+  }
+
+  #menu:checked ~ .nav-menu > :nth-child(5) a {
+    top: 228px;
+    transition: 0.5s;
+  }
+
+  .branch {
+    display: none;
+  }
+
+  .social-and-personal-settings ul {
+    justify-content: start !important;
+    padding-left: 0;
+  }
+
+  main {
+    padding-top: 200px !important;
+    padding-bottom: 100px !important;
+  }
+}
