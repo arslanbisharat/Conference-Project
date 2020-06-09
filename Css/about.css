@@ -1,0 +1,325 @@
+@font-face {
+  src: url("./Assets/Fonts/Cocogoose.ttf");
+  font-family: 'Cocogoose';
+}
+
+/* general */
+body {
+  font-family: 'Lato', sans-serif;
+  color: #ec5242;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+label {
+  max-width: 20px;
+  width: 20px;
+}
+
+#menu {
+  display: none;
+}
+
+.centered-item {
+  max-width: 1400px;
+  margin: auto;
+  width: 100%;
+  padding: 0 100px;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 200;
+}
+
+nav {
+  padding: 0 200px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main {
+  padding-top: 250px !important;
+  padding-bottom: 100px !important;
+}
+
+footer {
+  padding: 50px !important;
+  padding-bottom: 50px !important;
+  text-align: start;
+  background-color: #272a31;
+}
+
+/* headers */
+h1 {
+  font-size: 5em;
+  font-weight: bold;
+  font-family: 'Cocogoose', Arial, Helvetica, sans-serif;
+  max-width: 900px;
+  width: 100%;
+  margin: auto;
+}
+
+.game-history > :last-child h2 {
+  font-weight: bold;
+  font-family: 'Cocogoose', Arial, Helvetica, sans-serif;
+  font-size: 4em;
+  color: white;
+}
+
+h4 {
+  color: white;
+  font-weight: bold;
+  font-family: 'Cocogoose', Arial, Helvetica, sans-serif;
+}
+
+/* div */
+footer > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-and-personal-settings {
+  background-color: rgb(59, 60, 63);
+  padding: 5px 0;
+}
+
+.nav-background {
+  background-color: white;
+}
+
+.branch {
+  color: #272a31;
+  line-height: 15px;
+}
+
+/* section */
+.game-history {
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 25px;
+}
+
+/* article */
+main :nth-child(3) {
+  border: 2px solid lightgray;
+  padding: 15px 40px 30px;
+  background-color: white;
+  margin-bottom: 50px;
+}
+
+.game-history > :last-child {
+  background-color: #272a31;
+  max-width: 800px;
+  width: calc(100% - 20px);
+  border: 2px solid #ec5242;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.article-background-img {
+  background-position: bottom;
+  background-size: 110% 110%;
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.article-background-img article {
+  background-color: rgb(236, 82, 66, 0.5);
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  transition: 0.2s;
+}
+
+.article-background-img:hover {
+  background-size: 100% 100%;
+  transition: 0.2s;
+}
+
+.article-background-img:hover article {
+  background-color: rgb(236, 82, 66, 0);
+  transition: 0.2s;
+}
+
+/* a */
+nav a {
+  color: #272a31;
+  padding: 20px 30px 21px;
+  transition: 0.3s;
+}
+
+main a {
+  color: #272a31;
+  font-weight: bold;
+}
+
+.tickets-link {
+  color: #ec5242;
+  padding: 5px 10px;
+  font-weight: bold;
+  background: none;
+  border: 4px solid #ec5242;
+  margin-left: 40px;
+}
+
+.social-and-personal-settings a {
+  color: white;
+  margin-left: 15px;
+}
+
+.game-history a {
+  color: #ec5242;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: white;
+  background-color: lightgrey;
+  font-weight: normal;
+  transition: background-color 0.4s;
+}
+
+main a:hover {
+  color: #ec5242;
+}
+
+.tickets-link:hover {
+  background-color: transparent;
+  color: #ec5242;
+  font-weight: bold;
+}
+
+nav ul :nth-child(2) a {
+  font-weight: bold;
+  color: #ec5242;
+}
+
+.social-and-personal-settings a:hover {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+/* ul */
+ul {
+  margin: 0;
+  padding-left: 0 !important;
+}
+
+.social-and-personal-settings ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* li */
+body li {
+  display: inline;
+}
+
+.menu-btn {
+  display: none;
+  font-size: 1.5em;
+  color: #272a31;
+  position: relative;
+  top: 4px;
+}
+
+.menu-btn i:hover {
+  color: #ec5242;
+  cursor: pointer;
+}
+
+/* p */
+p {
+  margin: 0;
+  color: #272a31;
+}
+
+main p {
+  color: #272a31;
+}
+
+footer p {
+  color: white;
+}
+
+.branch p {
+  font-weight: bold;
+  padding-left: 55px;
+}
+
+.branch :nth-child(2) {
+  padding-top: 25px;
+  font-size: 18px;
+}
+
+.our-game > div p {
+  color: white;
+}
+
+footer > div > :first-child p {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 10px 30px 0 10px;
+  padding: 0;
+  font-family: 'Cocogoose', Arial, Helvetica, sans-serif;
+}
+
+footer > div > :last-child :first-child {
+  font-weight: bold;
+  font-size: 1.05em;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+/* images */
+footer img {
+  width: 40px;
+}
+
+.branch img {
+  width: 50px;
+  float: left;
+  padding: 5px 0;
+}
+
+.game-history img {
+  width: 200px;
+  margin: 15px 0;
+}
+
+.article-background-img-1 {
+  background-image: url("./Assets/Images/aboutpageImages/concert.jpg");
+}
+
+.article-background-img-2 {
+  background-image: url("./Assets/Images/aboutpageImages/birthday.jpg");
+}
+
+.article-background-img-3 {
+  background-image: url("./Assets/Images/aboutpageImages/game.jpg");
+}
+
+.article-background-img-4 {
+  background-image: url("./Assets/Images/aboutpageImages/binoculars.jpg");
+}
+
+/* hr */
+hr {
+  border-top: 1px solid #ec5242;
+  width: 25px;
+  margin: 10px auto 20px;
+  padding: 0;
+}
