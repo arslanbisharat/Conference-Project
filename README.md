@@ -1,6 +1,6 @@
 # Capstone Event Page
 
-> This is a project of a Cindy Shin's Global Summit page.
+> This is a project of Cindy Shin's Global Summit page.
 
 ![screenshot](./screenshot.png)
 
@@ -19,8 +19,8 @@
 - Use semantic HTML tags.
 - Use semantic HTML tags.
 - Use HTML elements box model (margin, padding, width, height).
-- Use industry-standard tools (flexbox) to place elements in the page.
-- Ability to create UIs adaptable to different screen sizes using mediaqueries.
+- Use industry-standard tools (flexbox) to place elements on the page.
+- Ability to create UIs adaptable to different screen sizes using media queries.
 - Apply front-end best practices.
 - Ability to create UIs adjusted to given designs.
 - Strong English written and verbal communication.
@@ -39,7 +39,7 @@
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!
+Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/arslanbisharat/conference-page/issues).
 
@@ -49,4 +49,4 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- To Cindy Shin and her project CC Global Summit 2015, in which I based to make this project, yo can check the original material here: [Cindy Shin CC Global Summit 2015](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+- To Cindy Shin and her project CC Global Summit 2015, in which I based to make this project, you can check the original material here: [Cindy Shin CC Global Summit 2015](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
